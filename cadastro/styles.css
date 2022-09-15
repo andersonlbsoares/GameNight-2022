@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #0E2044;
+
+}
+
+input,
+button {
+  outline: none;
+}
+
+/* SCROLLBAR STYLES */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #550275;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #05001a;
+}
+
+/* DEFAULT STYLES */
+
+.background-section {
+  background-image: url(../assets/space.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+}
+
+main {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* MAIN SCREEN */
+
+.logo-gn {
+  width: 80%;
+  margin-top: 12%;
+}
+
+.form-secton {
+  margin-top: 5%;
+  width: 80%;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.login-form label {
+  color: #90FF00;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+select{
+  padding: 1.5rem 1rem;
+  border: 2px solid #B934EF;
+  border-radius: 15px;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  color: #90FF00;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+}
+
+select option{
+  color: black;
+  /* color: #90FF00; */
+  /* background: #0E2044; */
+  
+}
+
+.login-form input {
+  padding: 1.5rem 1rem;
+  border: 2px solid #B934EF;
+  border-radius: 15px;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  color: #90FF00;
+  background: none;
+}
+
+
+
+.login-form input[type='submit'] {
+  align-self: center;
+  width: 40%;
+  background: #90FF00;
+  color: #0E2044;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.login-form input[type='submit']:hover {
+  background: #74cc00;
+  color: #163169;
+}
+
+.form-secton span {
+  color: #B934EF;
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.form-secton span span {
+  color: #90FF00;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 4%;
+}
+
+footer img {
+  display: flex;
+  width: 100px;
+
+}
+
+/* PARTICIPANT TYPE SCREEN */
+
+.input-group {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#of-ufc {
+  text-decoration: none;
+  color: #05001a;
+  background-color: #B934EF;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+}
+
+#out-of-ufc {
+  color: #05001a;
+
+  text-decoration: none;
+  background-color: #90FF00;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+}
+
+.label-type {
+  align-self: center;
+}
+
+/* REGISTER FORM */
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.register-form label {
+  color: #90FF00;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.register-form input {
+  padding: 1.5rem 1rem;
+  border: 2px solid #B934EF;
+  border-radius: 15px;
+  font-size: 1.6rem;
+  margin-bottom: 1.3rem;
+  color: #90FF00;
+  background: none;
+}
+
+.register-form input[type='submit'] {
+  align-self: center;
+  width: 40%;
+  background: #90FF00;
+  color: #0E2044;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 0.7rem;
+  transition: 0.3s ease-in-out;
+}
+
+.register-form input[type='submit']:hover {
+  background: #74cc00;
+  color: #163169;
+}
+
+#cadastrar_participante{
+  font-size: 35px;
+  padding-bottom: 5vh;
+  text-transform: uppercase;
+  text-align: center;
+}

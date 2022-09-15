@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #0E2044;
+}
+
+input,
+button {
+  outline: none;
+}
+
+/* SCROLLBAR STYLES */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #550275;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #05001a;
+}
+
+/* DEFAULT STYLES */
+
+.background-section {
+  background-image: url(../assets/space.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+}
+
+main {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* MAIN SCREEN */
+
+.logo-gn {
+  width: 80%;
+  margin-top: 12%;
+}
+
+.form-secton {
+  width: 80%;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.login-form label {
+  color: #90FF00;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.login-form input {
+  padding: 1.5rem 1rem;
+  border: 2px solid #B934EF;
+  border-radius: 15px;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  color: #90FF00;
+  background: none;
+}
+
+.form-secton span {
+  color: #B934EF;
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.form-secton span span {
+  color: #90FF00;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 4%;
+}
+
+footer img {
+  display: flex;
+  width: 200px;
+
+}
+
+/* WELCOME SCREEN */
+
+.person-name {
+  color: #B934EF;
+  /* font-family: overwave; */
+  font-size: 6rem;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* RESPONSIBLE */
+
+.table-section {
+  width: 80%;
+  height: 100%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+table tbody {
+  display: block;
+  height: 100%;
+  overflow-y: auto;
+}
+
+table tbody tr {
+  width: 100%;
+}
+
+.number-div {
+  width: 50px;
+  padding: 0.7rem 0;
+  border-radius: 10px;
+  border: 2px solid #90FF00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-div span {
+  color: #90FF00;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.second-col {
+  width: 100%;
+  padding-left: 30px;
+  padding: 10px 0px 10px 30px;
+}
+
+.person-name-div {
+  width: 100%;
+  border: 2px solid #B934EF;
+  border-radius: 10px;
+  padding: 0.7rem;
+  text-align: center;
+}
+
+.second-col span {
+  color: #B934EF;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.responsible-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.responsible-form label {
+  color: #90FF00;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 40%;
+}
+
+.responsible-form img {
+  width: 50px;
+  height: 50px;
+}
+
+.responsible-form input {
+  padding: 1rem;
+  border: 2px solid #90FF00;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  color: #90FF00;
+  background: none;
+}
+
+@font-face {
+  font-family: overwave;
+  src: url(../Overwave.ttf);
+}
